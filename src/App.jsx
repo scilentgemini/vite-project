@@ -1,9 +1,17 @@
-function App() {
-  return (
-    <>
-      <h1>Hello React</h1>
-    </>
-  )
-}
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Hero from './components/Hero';
+import Contact from './components/Contact';
 
-export default App
+const App = () => {
+  return (
+    <div>
+      <Header />
+      <Hero/>
+      <Contact/>
+      <Footer />
+    </div>
+  );
+};
+
+export default App;
